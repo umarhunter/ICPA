@@ -17,8 +17,9 @@ header::after{
     clear: both;
 }
 .logo{
-    float: left;
-    padding: 25px 0;
+    float: center;
+    width: 60px; 
+    height: 60px;
 }
 nav{
     float: right;
