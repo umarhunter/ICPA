@@ -1,0 +1,48 @@
+/* if you need to check how big or the position of the divs, you can just change each divs background color and it'll show you the full area of the div  */
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: transparent;
+}
+
+#Container {
+    background-color: transparent;
+    width: fit-content;
+    height: 95vh;
+    margin: 0;
+}
+
+#navbar {
+    background-color: transparent;
+    text-align: center;
+    height: 10%;
+    margin: 0;
+}
+
+#main-page {
+    background-image: url(/img/placeholder.jpg);
+    width: 100%;
+    height: 90%;
+    margin: 0;
+}
+
+#header {
+    background-color: transparent;
+    width: 100%;
+    height: 25%;
+    margin: auto;
+    text-align:center;
+    line-height: 350%; /* i wasnt really sure how to align the text vertically since my height is a percentage and the places i searched said height should be based on pixels or something */
+    color: white;
+}
+
+#statement {
+    background-color: transparent;
+    width: 100%;
+    height: 25%;
+    margin: 0;
+    text-align: center;
+    line-height: 300%; /* same as line 36 */
+    color: white;
+}
