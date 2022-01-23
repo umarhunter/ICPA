@@ -1,4 +1,4 @@
-/* if you need to check how big or the position of the divs, you can just change each divs background color and it'll show you the full area of the div  */
+
 body {
     width: 100%;
     height: 100%;
@@ -7,9 +7,9 @@ body {
 }
 
 #Container {
-    background-color: black;
-    width: auto;
-    height: 90%;
+    background-color: rgb(0, 95, 184);
+    width: 100%;
+    height: 100%;
     margin: 0;
 }
 
@@ -20,29 +20,32 @@ body {
     margin: 0;
 }
 
-#main-page {
-    background-image: url();
+#image {
+    background-image: url("img/ICPA_gif1.gif");
     width: 100%;
-    height: 90%;
+    height: 100%;
     margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #header {
-    background-color: transparent;
-    width: 100%;
-    height: 25%;
-    margin: auto;
-    text-align:center;
-    line-height: 350%; /* i wasnt really sure how to align the text vertically since my height is a percentage and the places i searched said height should be based on pixels or something */
+    font-weight: bold;
+    background-color: black;
+    width: auto;
+    height: 20px;
+    margin: auto;       
+    text-align: center;
     color: white;
 }
 
 #statement {
     background-color: transparent;
-    width: 100%;
-    height: 25%;
-    margin: 0;
+    width: auto;
+    height: 70px;
+    margin: auto;
     text-align: center;
-    line-height: 300%; /* same as line 36 */
     color: white;
+
 }
